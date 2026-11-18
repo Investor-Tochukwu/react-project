@@ -3,8 +3,10 @@ import ConditionalComponents2 from "./components/ConditionalComponents2";
 import ConditionalComponents3 from "./components/ConditionalComponents3";
 import ConditionalComponents4 from "./components/ConditionalComponents4";
 import { ConditionalComponents5 } from "./components/ConditionalComponents5";
+import Counter from "./components/counter";
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
+import Message from "./components/Message";
 
 function App() {
 
@@ -28,7 +30,7 @@ function App() {
       
     < Hello person= {person}/>
 
-    <Fruits/> 
+    
 
     <ConditionalComponent/>
 
@@ -36,6 +38,9 @@ function App() {
     <ConditionalComponents3/>
     <ConditionalComponents4/>
     <ConditionalComponents5/>
+    <Fruits/>
+    <Message/>
+    <Counter/>
 
     </>
   )

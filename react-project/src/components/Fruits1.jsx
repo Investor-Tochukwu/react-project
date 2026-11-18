@@ -1,12 +1,12 @@
-export defualt function Fruits1 ( {name, price, emoji, soldout}) {
-  return (
-    <div>
-     {
-        soldout = true ? ( <li> {name} {price} {emoji} {soldout}  </li>) : ( " ")
-     }
+// export defualt function Fruits1 ( {name, price, emoji,) {
+//   return (
+//     <div>
+//      {
+//         price = > 20 ? ( <li> {name} {price} {emoji}  </li>) : ( " ")
+//      }
     
-    </div>
-  );
+//     </div>
+//   );
     
 
-}
+// }

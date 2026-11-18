@@ -13,4 +13,4 @@ export default function ConditionalComponents3 () {
 
 }
 
-// In the code above, I was trying to render a conditional components without using the return keyword twice.
+// In the code above, I was trying to render a conditional components without using the return keyword twice. I achieved this buy using variables.
