@@ -4,6 +4,7 @@ import ConditionalComponents3 from "./components/ConditionalComponents3";
 import ConditionalComponents4 from "./components/ConditionalComponents4";
 import { ConditionalComponents5 } from "./components/ConditionalComponents5";
 import Counter from "./components/counter";
+import Form from "./components/Form";
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
@@ -41,6 +42,7 @@ function App() {
     <Fruits/>
     <Message/>
     <Counter/>
+    <Form/>
 
     </>
   )
